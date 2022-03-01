@@ -16,7 +16,7 @@ public class HomePage {
         this.driver=driver;
     }
 
-    //  Find the location and date picker
+    //  Find the elements I will to interact with on this page
     By LocationSearch = By.id("search-box");
     By DateFrom = new By.ByClassName("c-booking-date__native-input--from");
     By SearchSubmit = new By.ByClassName("c-searchform__submit");
