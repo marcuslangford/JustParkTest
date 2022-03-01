@@ -17,12 +17,6 @@ public class ParkingTest {
         //  Navigate from the home page to the find parking page
         home.enterLocation();
         home.changeFromDate();
-
-        //  The button is not clickable, until the Location field is full,
-        //  so added a wait here to ensure that the button is clickable.
-        //  Note:   I tried to use 'isClickable' with an explicit wait
-        //          but was having trouble there.
-        Thread.sleep(2000);
         home.showParking();
 
         //  Wait for parking page to load before beginning parking page methods
