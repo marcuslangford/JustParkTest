@@ -45,10 +45,8 @@ public class HomePage {
     }
 
     public void showParking() {
+        //  Click the button to move to the parking results
 
-        //  Wait for autocomplete to select the top result,
-        //  click the button to move to the parking results
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(SearchSubmit).click();
 
 
