@@ -30,8 +30,7 @@ public class ParkingPage {
         driver.findElement(MonthChevronRight).click();
 
 
-        //  Select 28 days from today - used Xpath here as couldn't find the table element with a class,
-        //  possibly a better way but this works
+        //  Select a day at least 28 days from start date
         Thread.sleep(3000);
         driver.findElement(DateSelector).click();
 
