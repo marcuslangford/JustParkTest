@@ -12,7 +12,8 @@ public class ParkingPage {
     public ParkingPage(WebDriver driver) {
         this.driver = driver;
     }
-
+    
+    //  Find the elements I will to interact with on this page
     By DatePickTo = new By.ByClassName("c-booking-date__native-input--to");
     By SearchBtn = new By.ByClassName("c-searchform__submit");
     By MonthChevronRight = new By.ByClassName("c-chevron-icon--right");
