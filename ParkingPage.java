@@ -30,7 +30,7 @@ public class ParkingPage {
         driver.findElement(MonthChevronRight).click();
 
 
-        //  Select March 30th - use Xpath here as couldn't find the table element with a class,
+        //  Select 28 days from today - used Xpath here as couldn't find the table element with a class,
         //  possibly a better way but this works
         Thread.sleep(3000);
         driver.findElement(DateSelector).click();
