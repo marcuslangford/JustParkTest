@@ -29,7 +29,7 @@ public class HomePage {
 
         //  Wait for the autocomplete drop-down to appear, send ENTER to pick the first option
         //  Using Thread.sleep as I couldn't get this working with an implicit or explicit wait
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         driver.findElement(LocationSearch).sendKeys(Keys.ENTER);
 
     }
@@ -44,9 +44,9 @@ public class HomePage {
         driver.findElement(CloseDatePicker).click();
     }
 
-    public void showParking() {
+    public void showParking() throws InterruptedException {
         //  Click the button to move to the parking results
-
+        Thread.sleep(2000);
         driver.findElement(SearchSubmit).click();
 
 
