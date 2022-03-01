@@ -25,7 +25,7 @@ public class ParkingPage {
         //  Click to open the date picker
         driver.findElement(DatePickTo).click();
 
-        //  Switch to March in the date picker
+        //  Switch to next month in the date picker
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(MonthChevronRight).click();
 
